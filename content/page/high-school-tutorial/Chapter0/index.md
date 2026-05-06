@@ -85,14 +85,11 @@ In order to help PR2, you’ll first need to build the environment it will navig
 Step 2: Let the Robot perceive the Milk.
 Understand how PR2 perceives the world around it. Program the robot to move to a specific location and use its sensors to detect the milk carton.
 
-Step 3: Query the knowledgebase
+Step 3: Query the knowledge base
 Guide PR2 through its learning process. Before PR2 can see the milk, it needs to understand that the fridge door must be opened. Program this action as part of the task.
 
 Step 4: Open the Fridge
 Now that the fridge is open, PR2 can scan and detect the milk carton inside. Help it to successfully fetch the milk and place it on the table.
-
-Step 5: The Final Task
-You will head into generative Large Language Models (LLMs) and how to fine-tune them. With Retreival Augmented Generation (RAG) you create a specialized assistant that serves as a companion for robot programming.
 
 The Goal
 ---

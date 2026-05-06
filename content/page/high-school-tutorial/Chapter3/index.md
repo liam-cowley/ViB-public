@@ -59,7 +59,7 @@ Today you'll teach your robot to *think* about what it should do. You'll query a
 
 ---
 
-## Key Concepts (Simplified)
+## Key Concepts
 
 **Knowledge Base**: A smart database that stores facts about your environment and rules for robot behavior.
 
@@ -131,7 +131,9 @@ For Hands-On Exercises please use the following Virtual Lab: <a class="btn btn-s
 
 By the end of this session, you'll have a robot that can reason about what actions to take, making it much smarter than following pre-programmed steps.
 
+---
 
+## Instructor Contact
 
 <div class="main-well-flex-container" style="margin:20px;align-items: center;">
 

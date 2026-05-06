@@ -41,17 +41,17 @@ This teaches robots how to understand their environment and reason about where t
 
 ---
 
-# Part 1: Build Your First URDF Environment
+# Build Your First URDF Environment
 
 ### **Goal**
 Create and visualize a working URDF model with a fridge, table, and other kitchen objects.
 
-## What is URDF? (2 min read)
+## What is URDF?
 
 **URDF** = Unified Robot Description Format. It's an XML format that describes physical objects and how they connect.
 
-Think of building with LEGO:
-- **Links** = the blocks (a fridge door, a table top, etc.)
+There are two main components:
+- **Links** = the objects (a fridge door, a table top, etc.)
 - **Joints** = the connectors (hinges, bolts, etc. that let parts move)
 
 URDF also specifies:
@@ -84,51 +84,6 @@ Add a fridge, table, and other furniture to your scene. Modify their positions a
 
 ---
 
-# Part 2: Bring Your Environment Intelligence with a Knowledge Base
-
-### **Goal**
-Transform your URDF scene into an "intelligent" environment that can answer questions about itself.
-
-## Why Does Your Robot Need This?
-
-Your URDF scene is just geometry. But robots need to *reason* about their world:
-- "Where should I look for milk?" (Answer: check the fridge)
-- "Can I sit here?" (Answer: yes, there's a chair)
-- "What items are in the kitchen?" (Answer: fridge, table, sink...)
-
-This is where knowledge bases come in. They let you tag objects with meaning and ask intelligent queries.
-
-## How It Works (Simple Overview)
-
-1. **You tag your URDF with semantic info**: Mark that the fridge is a "food storage" and the table is for "food prep"
-2. **The knowledge base stores these relationships**: Creates a simple map of "what is what" and "what can do what"
-3. **You query it**: Ask "Give me all food storage objects" and it returns the fridge
-
-This is a taste of what Chapter 3 digs into much deeper.
-
-## Your Hands-On Exercises
-
-### Exercise 1: Tag Your Objects (Optional)
-Learn how to mark URDF objects with semantic labels so a knowledge base can understand them. Try the:
-
-**[Multiverse Knowledge Lab →](https://binder.intel4coro.de/v2/gh/Multiverse-Framework/Multiverse-Docker/c578396?urlpath=lab%2Ftree%2FMultiverse-Tutorials%2Ftutorials%2Fmultiverse_knowledge.ipynb)**
-
-### Exercise 2: Query Your Environment
-Ask your knowledge base questions about your scene. Try the:
-
-**[KnowRob Lab →](https://binder.intel4coro.de/v2/gh/sasjonge/semantic-map-lab.git/b146ce1?labpath=notebooks%2Fsemantic_map.ipynb)**
-
-Example queries you might try:
-- "What objects contain food?"
-- "Where can I place a plate?"
-- "Which objects can I grasp?"
-
----
-
-## Quick Challenge
-
-**Try this:** Add a new object (like a cup or plate) to your URDF environment. Reposition it a few times until it's where you want it. This reinforces how to customize URDF models.
-
 ## Further Reading
 
 Want to dive deeper? Check out:
@@ -140,11 +95,78 @@ Want to dive deeper? Check out:
 ## Instructor Contact
 
 <div class="main-well-flex-container" style="margin:20px;align-items: center;">
+
   <div style="flex:30%;">
       <img src="img/sjongebloed_sq.jpg" style="clip-path: circle(35%);">
   </div>
+
   <div style="flex:70%;">
-    <h3>Sascha Jongebloed</h3>
-    <a href="mailto:jongebloed@cs.uni-bremen.de">jongebloed@cs.uni-bremen.de</a>
+       <h3> Sascha Jongebloed</h3>
+    Mail:     <a href="mailto:jongebloed@uni-bremen.de">jongebloed@cs.uni-bremen.de</a> <br>
+      <a style="color:red" href="https://ai.uni-bremen.de/team/sascha_jongebloed">
+      <span style="font-size: 15px;">Profile Sascha Jongebloed</span>
+    </a>
+  </div>
+</div>
+<div class="main-well-flex-container" style="margin:20px;align-items: center;">
+
+  <div style="flex:30%;">
+      <img src="img/yanxiang.jpg" style="clip-path: circle(45%);">
+  </div>
+
+  <div style="flex:70%;">
+       <h3> Yanxiang Zhan</h3>
+    Mail:     <a href="mailto:yanxiang@uni-bremen.de">yanxiang@uni-bremen.de</a> <br>
+      <a style="color:red" href="https://ai.uni-bremen.de/team/yanxiang_zhan">
+      <span style="font-size: 15px;">Profile Yanxiang Zhan</span>
+    </a>
+  </div>
+</div>
+<div class="main-well-flex-container" style="margin:20px;align-items: center;">
+
+  <div style="flex:30%;">
+      <img src="img/hoanggia2.jpg" style="clip-path: circle(35%);">
+  </div>
+
+  <div style="flex:70%;">
+       <h3>Giang Nguyen</h3>
+    Mail:     <a href="mailto:hoanggia@cs.uni-bremen.de">hoanggia@cs.uni-bremen.de</a> <br>
+      <a style="color:red" href="https://ai.uni-bremen.de/team/giang_nguyen">
+      <span style="font-size: 15px;">Profile Giang Nguyen</span>
+    </a>
+  </div>
+</div>
+
+
+<div class="main-well-flex-container" style="margin:20px;align-items: center;">
+
+  <div style="flex:30%;">
+      <img src="img/vanessa.jpg" style="clip-path: circle(39%);">
+  </div>
+
+  <div style="flex:70%;">
+       <h3> Vanessa Hassouna</h3>
+    Tel:  +49 421 218 99651 <br>
+    Mail:     <a href="mailto:hassouna@cs.uni-bremen.de">hassouna@cs.uni-bremen.de</a> <br>
+      <a style="color:red" href="https://ai.uni-bremen.de/team/vanessa_hassouna">
+      <span style="font-size: 15px;">Profile Vanessa Hassouna</span>
+    </a>
+  </div>
+</div>
+
+
+<div class="main-well-flex-container" style="margin:20px;align-items: center;">
+
+  <div style="flex:30%;">
+      <img src="../mbeetza.jpg" style="clip-path: circle(35%);">
+  </div>
+
+  <div style="flex:70%;">
+       <h3> Prof. Michael Beetz PhD</h3>
+    Tel:  +49 421 218 64001 <br>
+    Mail:     <a href="mailto:beetz@cs.uni-bremen.de">beetz@cs.uni-bremen.de</a> <br>
+      <a style="color:red" href="https://ai.uni-bremen.de/team/michael_beetz">
+      <span style="font-size: 15px;">Profile Michael Beetz</span>
+    </a>
   </div>
 </div>

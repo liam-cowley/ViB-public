@@ -20,12 +20,6 @@ For Entering Chapter four click here:
 
 <!--more-->
 
-<div class="main-well-flex-container" style="margin:20px;align-items: center;">
-  <div style="flex:30%;">
-      <img src="transportation_task.png" width="200" style="clip-path: circle(35%);">
-  </div>
-</div> 
-
 # Welcome to the Final Day of Our Hands-On Course!
 
 Today you'll integrate everything: the environment (URDF), movement (navigation & grasping), perception (detecting objects), and knowledge (reasoning about actions).
@@ -118,11 +112,71 @@ These are the fundamentals of autonomous robot programming!
 ## Instructor Contact
 
 <div class="main-well-flex-container" style="margin:20px;align-items: center;">
+
   <div style="flex:30%;">
       <img src="img/vanessa.jpg" style="clip-path: circle(35%);">
   </div>
+
   <div style="flex:70%;">
-    <h3>Vanessa Hassouna</h3>
-    <a href="mailto:hassouna@cs.uni-bremen.de">hassouna@cs.uni-bremen.de</a>
+       <h3> Vanessa Hassouna</h3>
+    Tel:  +49 421 218 99651 <br>
+    Mail:     <a href="mailto:hassouna@cs.uni-bremen.de">hassouna@cs.uni-bremen.de</a> <br>
+      <a style="color:red" href="https://ai.uni-bremen.de/team/vanessa_hassouna">
+      <span style="font-size: 15px;">Profile Vanessa Hassouna</span>
+    </a>
+  </div>
+
+
+</div>
+
+
+<div class="main-well-flex-container" style="margin:20px;align-items: center;">
+
+  <div style="flex:30%;">
+      <img src="img/bassiouny2024.jpg" style="clip-path: circle(35%);">
+  </div>
+
+  <div style="flex:70%;">
+   <h3>Abdelrhman Bassiouny</h3>
+   Room: TAB 2.88 <br>
+   Mail: <a href="mailto:bassioun@uni-bremen.de">bassioun(at)uni-bremen[dot]de</a> <br>
+   <a style="color:red" href="https://ai.uni-bremen.de/team/abdelrhman_bassiouny">
+      <span style="font-size: 15px;">Profile Abdelrhman Bassiouny</span>
+   </a>
+</div>
+
+
+</div>
+
+
+<div class="main-well-flex-container" style="margin:20px;align-items: center;">
+
+  <div style="flex:30%;">
+      <img src="img/hoanggia2.jpg" style="clip-path: circle(35%);">
+  </div>
+
+  <div style="flex:70%;">
+       <h3>Giang Nguyen</h3>
+    Mail:     <a href="mailto:hoanggia@cs.uni-bremen.de">hoanggia@cs.uni-bremen.de</a> <br>
+      <a style="color:red" href="https://ai.uni-bremen.de/team/giang_nguyen">
+      <span style="font-size: 15px;">Profile Giang Nguyen</span>
+    </a>
+  </div>
+</div>
+
+
+<div class="main-well-flex-container" style="margin:20px;align-items: center;">
+
+  <div style="flex:30%;">
+      <img src="../mbeetza.jpg" style="clip-path: circle(35%);">
+  </div>
+
+  <div style="flex:70%;">
+       <h3> Prof. Michael Beetz PhD</h3>
+    Tel:  +49 421 218 64001 <br>
+    Mail:     <a href="mailto:beetz@cs.uni-bremen.de">beetz@cs.uni-bremen.de</a> <br>
+      <a style="color:red" href="https://ai.uni-bremen.de/team/michael_beetz">
+      <span style="font-size: 15px;">Profile Michael Beetz</span>
+    </a>
   </div>
 </div>
