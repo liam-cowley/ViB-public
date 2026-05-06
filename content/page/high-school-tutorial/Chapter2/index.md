@@ -69,19 +69,12 @@ You will learn more about that in the following exercises.
 1. **Move the Robot**: Program the robot to navigate to a predefined location near the table.
 2. **Object Detection**: Use a camera sensor to detect and identify the milk carton.
 3. **Understand Object Designators**: Learn how to use designators to represent objects.
-4. **Perception Tasks**: Learn how our perception executive framework can be adapted to different perception tasks.
 
 Throughout these exercises, we will provide code examples to help you move the robot and utilize computer vision techniques effectively.
 
 Interactive Actions and/or Examples
 ---
 For Hands-On Exercise 1-3, please use the following Virtual Lab first: <a class="btn btn-success" target="_blank" href="https://binder.intel4coro.de/v2/gh/sunava/pycram/dc53ccb77028762ef20161a9cdbd88a8ce53980b?urlpath=lab%2Ftree%2Fdemos%2Fpycram_fallschool_2024%2F02_robot_simulation_perception.ipynb">Robot Simulation Perception</a>
-
-
-For Hands-On Exercise 4, please use this Virtual Lab:<br>
-<a class="btn btn-success" target="_blank" href="https://binder.intel4coro.de/v2/git/https%3A%2F%2Fgitlab.informatik.uni-bremen.de%2Ffmuehlis%2Frobokudo-lab.git/74f0ed78fbb103a6b4d190bf0e1acae5703c73f4?urlpath=lab%2Ftree%2Frobokudo.jupyterlab-workspace">RoboKudo Getting Started Lab</a>
-
-
 
 ## Summary
 By the end of the session, you'll have a clearer understanding of basic motion planning and the challenges associated with perception in robotics.
