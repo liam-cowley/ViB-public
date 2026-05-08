@@ -74,7 +74,7 @@ Throughout these exercises, we will provide code examples to help you move the r
 
 Interactive Actions and/or Examples
 ---
-For Hands-On Exercise 1-3, please use the following Virtual Lab first: <a class="btn btn-success" target="_blank" href="https://binder.intel4coro.de/v2/gh/sunava/pycram/dc53ccb77028762ef20161a9cdbd88a8ce53980b?urlpath=lab%2Ftree%2Fdemos%2Fpycram_fallschool_2024%2F02_robot_simulation_perception.ipynb">Robot Simulation Perception</a>
+For Hands-On Exercise 1-3, please use the following Virtual Lab first: <a class="btn btn-success" target="_blank" href="https://binder.intel4coro.de/v2/gh/liam-cowley/pycram/fallschool?urlpath=lab%2Ftree%2Fdemos%2Fpycram_fallschool_2024%2F02_robot_simulation_perception.ipynb">Robot Simulation Perception</a>
 
 ## Summary
 By the end of the session, you'll have a clearer understanding of basic motion planning and the challenges associated with perception in robotics.
