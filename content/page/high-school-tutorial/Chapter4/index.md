@@ -73,7 +73,7 @@ How robust is your plan?
 
 ## Running Your Code
 
-**[Launch the Full Simulation Lab →](https://binder.intel4coro.de/v2/gh/sunava/pycram/1a68c62696a07e1c288613cee303364f47041461?urlpath=lab%2Ftree%2Fdemos%2Fpycram_fallschool_2024%2F04_full_robot_simulation.ipynb)**
+**[Launch the Full Simulation Lab →](https://binder.intel4coro.de/v2/gh/liam-cowley/pycram/fallschool?urlpath=lab%2Ftree%2Fdemos%2Fpycram_fallschool_2024%2F04_full_robot_simulation.ipynb)**
 
 ---
 
