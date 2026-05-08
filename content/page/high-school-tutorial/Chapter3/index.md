@@ -55,8 +55,6 @@ Today you'll teach your robot to *think* about what it should do. You'll query a
 - Create rules for robot behavior
 - Test how new knowledge changes query results
 
-**[Open the hands-on notebook →](chapter3.ipynb)**
-
 ---
 
 ## Key Concepts
