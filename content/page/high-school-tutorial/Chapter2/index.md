@@ -79,14 +79,6 @@ For Hands-On Exercise 1-3, please use the following Virtual Lab first: <a class=
 ## Summary
 By the end of the session, you'll have a clearer understanding of basic motion planning and the challenges associated with perception in robotics.
 
-
-
-## Further Reading/Exercises
-- For those interested in the interface between PyCram and RoboKudo, check out the [PyCram Documentation](https://pycram.readthedocs.io/en/latest/notebooks/interface_examples/robokudo.html).
-- RoboKudo is built upon behavior trees. If you want to read more about the general concept of behavior trees, there is an excellent, comprehensive book on [arxiv](arxiv.org) which can be seen [here](https://arxiv.org/abs/1709.00084).
-- For sensor data processing, Robokudo makes heavy use of [OpenCV](https://www.opencv.org) and [Open3D](https://www.open3d.org).
-- **Challenge**: Experiment with different sensor configurations to improve the accuracy of the object detection process.
-
 Related Videos
 ---
 Cram Overview:
