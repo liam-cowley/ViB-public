@@ -92,25 +92,6 @@ Create a complete plan for getting milk from the fridge. What queries do you nee
 
 By the end of this session, you'll have a robot that can reason about what actions to take, making it much smarter than following pre-programmed steps. 
 object information and information about observed actions that has been acquired from various sources (manually axiomatized, derived from observations, or imported from the web).
-For more information check out the [KnowRob Documentation](https://knowrob.org/).
-#### Ontologies
-KnowRob has been employing ontologies in order to conceptualize the world in which the robot acts since more then a decade. 
-In the early days, KnowRob's knowledge modeling was inspired by definitions in Cyc. More recently, 
-and as a consequence of working closely with linguistic researchers in CRC EASE, KnowRob's knowledge modeling was revised. 
-The most fundamental change is that KnowRob's knowledge modeling was aligned to and derived from more abstract concepts defined in a carefully designed foundational ontology.
-KnowRob employs the DUL foundational ontology which is a slim version of the Descriptive Ontology for Linguistic and Cognitive Engineering (DOLCE). 
-DUL and DOLCE have a clear cognitive bias, and are both well established in the knowledge engineering community.
-
-As a foundational ontology, however, DUL does not define very specific concepts such as fork or dish. 
-However, these concepts are needed for our robots that do everyday activities. 
-[SOMA](https://ease-crc.github.io/soma/) is an ontological model, developped in CRC EASE, that attempts to equip robotic agents with abstract 
-knowledge to enable them performing activities in a more flexible and robust manner. 
-The main focus of SOMA is the characterization of physical and social activity context, 
-as well as the motions carried out by agents, and the interactions caused by them. SOMA is continuously deployed here,
-and can be loaded with common ontology tools such as [WebVOWL](https://visualdataweb.de/webvowl/#iri=https://ease-crc.github.io/soma/owl/current/SOMA.owl).
-![soma-vowl-zoomed.png](img%2Fsoma-vowl-zoomed.png)
-Finally, ontologies maintained as part of KnowRob are thought to be specifically for the robot usecase.
-For example, a concept “fork” would not be defined in these ontologies, but concepts such as “sensor” or “robot control system” would belong in these ontologies.
 
 ## Step-by-Step Hands-On Exercises
 1. **Query the Knowledge Base**: Write simple queries to understand the environment
